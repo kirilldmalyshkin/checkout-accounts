@@ -1,5 +1,7 @@
 <template>
+  <Meta name="cryptomus" content="f5254404" />
   <NuxtLayout>
+    <Meta name="cryptomus" content="f5254404" />
     <NuxtPage />
   </NuxtLayout>
 </template>
@@ -14,3 +16,5 @@
   filter: grayscale(1);
 }
 </style>
+<script setup lang="ts">
+</script>
