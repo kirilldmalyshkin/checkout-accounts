@@ -38,8 +38,8 @@ export default defineNuxtConfig({
   apollo: {
     clients: {
       default: {
-        httpEndpoint: 'http://localhost:1337/graphql',
-        browserHttpEndpoint: 'http://localhost:1337/graphql',
+        httpEndpoint: `${strapiBaseUri}/graphql`,
+        browserHttpEndpoint: `${strapiBaseUri}/graphql`,
         wsEndpoint: '',
         httpLinkOptions: {},
         wsLinkOptions: {},
