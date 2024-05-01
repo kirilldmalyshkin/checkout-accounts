@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "post_karma": {
+      "type": "integer"
+    },
+    "comment_karma": {
+      "type": "integer"
+    },
+    "total_karma": {
+      "type": "integer"
+    },
+    "age": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "login": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    }
+  }
+}
