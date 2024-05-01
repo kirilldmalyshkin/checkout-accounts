@@ -5,7 +5,7 @@
         <h2  class="text-xl sm:text-2xl font-medium mb-10">
           AVAILABLE REDDIT ACCOUNTS
         </h2>
-        <button @click="reset()" class="text-gray-500 mb-10 absolute top-1 right-0">
+        <button @click="reset()" class="text-gray-500 mb-10 absolute top-8 lg:top-1 xl:top-1 2xl:top-1 right-0 ">
           Reset
         </button>
       </div>
