@@ -2,7 +2,7 @@
   <div id="buyNowSection" class="min-h-screen h-full bg-white flex items-center justify-center py-10">
     <div class="lg:min-w-[1022px] xl:min-w-[1230px] 2xl:min-w-[1530px]">
       <div class="w-full  px-2 max-w-[453px] mx-auto relative">
-        <h2  class="text-xl sm:text-2xl font-medium mb-10">
+        <h2  class="text-xl sm:text-2xl font-medium mb-10 text-gray-700">
           AVAILABLE REDDIT ACCOUNTS
         </h2>
         <button @click="reset()" class="text-gray-500 mb-10 absolute top-8 lg:top-1 xl:top-1 2xl:top-1 right-0 ">
