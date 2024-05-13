@@ -2,7 +2,7 @@
     <footer class="footer p-10 container mx-auto">
         <div>
           <h2 class="font-bold uppercase">
-            @ accountmarket.club
+            @ accounts-market.org
           </h2>
             <div class="flex items-center">
               <svg class="h-8 w-auto mr-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
