@@ -18,16 +18,15 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                   </button>
-                  <p class="text-gray-500 leading-relaxed font-light pt-4">* You cart must not contain more than 1 items to place on order</p>
                 </div>
 
                 <div class="flex flex-row justify-center items-center mt-6">
                   <hr class="border w-full" />
-                  <p class="flex flex-shrink-0 px-4 text-base leading-4 text-gray-600 mb-4">Pay with
+                  <p class="flex flex-shrink-0 px-4 text-base leading-4 text-gray-600">Pay with
                     Cryptocurrency</p>
                   <hr class="border w-full" />
                 </div>
-                <div>
+                <div class="pt-4">
                   <div v-if="cart.addToCart.length > 0" class="flex items-center justify-between mb-4" v-for="(cart,idx) in cart.addToCart" :key="idx">
                     <div class="ml-6">
                       <h6 class="font-medium text-gray-900">{{ cart.attributes.name }}</h6>
