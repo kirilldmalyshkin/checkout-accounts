@@ -21,23 +21,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
-  // app: {
-  //   pageTransition: {
-  //     name: "fade",
-  //     mode: "out-in", // default
-  //   },
-  //   layoutTransition: {
-  //     name: "slide",
-  //     mode: "out-in", // default
-  //   },
-  // },
-  // apollo: {
-  //   clients: {
-  //     default: {
-  //       httpEndpoint: 'https://spacex-production.up.railway.app'
-  //     }
-  //   },
-  // },
   apollo: {
     clients: {
       default: {
