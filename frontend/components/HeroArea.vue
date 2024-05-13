@@ -1,6 +1,6 @@
 <template>
-  <section class="relative bg-[url('https://imagedelivery.net/nGcsA9mWikpa5TZkQCGBZQ/4017ced5-0d00-48ec-ccb0-8192e1c5db00/public')] bg-cover bg-center bg-no-repeat h-screen">
-    <div class="absolute inset-0 bg-black/50"></div>
+  <section class="relative bg-[url('assets/IMG_3450_50_1.jpeg')] bg-cover bg-center bg-no-repeat h-screen">
+    <div class="absolute inset-0 bg-black/20"></div>
 
     <div class="relative flex flex-col justify-center items-center h-full space-y-6">
 
@@ -17,7 +17,8 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
         </svg>
       </button>
-      <div class="bg-white rounded-lg shadow-lg p-4 absolute bottom-[-30px] w-11/12 mx-auto md:w-2/3 flex justify-between md:space-x-4">
+<!--      <div class="bg-white rounded-lg  p-4 absolute bottom-[-30px] w-11/12 mx-auto md:w-2/3 flex justify-between md:space-x-4 text-gray-700">-->
+      <div class="bg-white rounded-lg shadow-lg p-4 absolute bottom-[-30px] w-11/12 mx-auto md:w-2/3 flex justify-between md:space-x-4 text-gray-700">
         <div class="flex-1 flex items-center justify-center text-center">
           Real live accounts
         </div>

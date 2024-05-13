@@ -25,8 +25,8 @@
               <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar1.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
             </div>
             <div class="pt-6 text-center">
-              <p class="text-lg leading-normal font-bold mb-1">Joe Antonio</p>
-              <p class="text-gray-500 leading-relaxed font-light">When it came to marketing my cryptocurrency venture on Reddit, I was completely lost. But purchasing an aged Reddit account from their site was a game-changer. The high karma and genuine activity history instantly lent credibility to my posts. It’s been a smooth ride ever since. Highly recommend!</p>
+              <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Joe Antonio</p>
+              <p class="text-gray-500 leading-relaxed font-light">The best accounts that I have ever used, a convenient service that I first met in this market, Support is always in touch, I recommend these guys to everyone!</p>
             </div>
           </div>
           <!-- end team block -->
@@ -38,8 +38,8 @@
               <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar3.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
             </div>
             <div class="pt-6 text-center">
-              <p class="text-lg leading-normal font-bold mb-1">Sarah Daeva</p>
-              <p class="text-gray-500 leading-relaxed font-light">As an OnlyFans content creator, standing out on Reddit felt like an uphill battle. But with an aged account from their site, I could immediately reach my target audience in the top subreddits. The high-karma account gave me an instant boost and helped me gain subscribers at a pace I’d never seen before.</p>
+              <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Sarah Daeva</p>
+              <p class="text-gray-500 leading-relaxed font-light">Good service, bought a couple of accounts, couldn't log into the accounts as I'm new to this, wrote to support, quick response and help</p>
             </div>
           </div>
           <!-- end team block -->
@@ -51,8 +51,8 @@
               <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar2.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
             </div>
             <div class="pt-6 text-center">
-              <p class="text-lg leading-normal font-bold mb-1">Daniel Emo</p>
-              <p class="text-gray-500 leading-relaxed font-light">The team behind this site are my Reddit marketing heroes. Not only did they provide a high-quality, high-karma Reddit account that made my Crypto campaign skyrocket, but their customer service was impeccable. Any question I had was answered promptly and professionally. Best investment I’ve made in my marketing strategy!
+              <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Daniel Emo</p>
+              <p class="text-gray-500 leading-relaxed font-light">Service is very responsive accidentally bought the wrong account I wrote to support guys replaced the account in 15 minutes
 
               </p>
             </div>

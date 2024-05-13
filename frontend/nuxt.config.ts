@@ -18,6 +18,9 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxt/image-edge", "@nuxtjs/apollo"],
+  colorMode: {
+    preference: 'light'
+  },
   app: {
     pageTransition: {
       name: "fade",

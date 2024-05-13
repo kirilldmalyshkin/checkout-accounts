@@ -13,7 +13,7 @@ module.exports = {
         require("@tailwindcss/line-clamp"),
         require("daisyui"),
     ],
-    darkMode: false,
+    darkMode: 'selector',
     daisyui: {
         themes: false,
     },

@@ -12,7 +12,8 @@
       <div class="flex items-center justify-center">
         <div>
         <!-- ГОВНОКОД ON -->
-          <table class="sm:inline-table w-full flex flex-row sm:bg-white overflow-hidden ">
+
+          <table class="sm:inline-table w-full flex flex-row sm:bg-white overflow-hidden text-gray-700 shadow-lg shadow-amber-400/50">
             <thead
                 class="text-black"
             >
@@ -41,7 +42,7 @@
               <td class="border hover:bg-[#222E3A]/[6%]  hover:sm:bg-transparent py-3 px-5">
                 {{ product.attributes.name }}
               </td>
-              <td class="border hover:bg-[#222E3A]/[6%]  hover:sm:bg-transparent py-3 px-5">
+              <td class="border hover:bg-[#222E3A]/[6%]  hover:sm:bg-transparent py-3 px-5 text-emerald-400">
                 {{ parseFloat(product.attributes.price) }} $
               </td>
               <td class="border hover:bg-[#222E3A]/[6%]  hover:sm:bg-transparent py-3 px-5">

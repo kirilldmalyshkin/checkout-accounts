@@ -4,7 +4,7 @@
       <div class="px-10 mx-auto max-w-7xl sm:px-12 lg:px-20">
         <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-            <h4 class="text-lg leading-normal font-bold mb-1">
+            <h4 class="text-lg leading-normal font-bold mb-1 text-gray-700">
               The benefits of buying Reddit accounts
             </h4>
             <ul class="list-disc ml-6">

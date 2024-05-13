@@ -1,6 +1,9 @@
 <template>
     <footer class="footer p-10 container mx-auto">
         <div>
+          <h2 class="font-bold uppercase">
+            @ accountmarket.club
+          </h2>
             <div class="flex items-center">
               <svg class="h-8 w-auto mr-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                 <defs>
@@ -15,7 +18,7 @@
                 BUY REDDIT <span class="text-white">ACCOUNTS</span>
               </h1>
             </div>
-        <p>BUY REDDIT ACCOUNTS Ltd.<br/>Providing reliable tech since 2023</p>
+        <p>11 Claremont Grove, Chiswick, London W4 2TL</p>
     </div> 
     <div class="hidden">
         <span class="footer-title">Services</span> 
@@ -33,9 +36,11 @@
     </div> 
     <div class="col-start-4 flex flex-col pl-16">
         <span class="footer-title">Legal</span>
-        <nuxt-link to="/privacy-policy" class="link link-hover">Terms of use</nuxt-link>
         <nuxt-link to="/privacy-policy" class="link link-hover">Privacy policy</nuxt-link>
-        <nuxt-link to="/privacy-policy" class="link link-hover">Cookie policy</nuxt-link>
+        <nuxt-link to="/refund-policy" class="link link-hover">Privacy policy</nuxt-link>
+        <nuxt-link to="/contact-us" class="link link-hover">Contact</nuxt-link>
     </div>
     </footer>
 </template>
+<script setup lang="ts">
+</script>
