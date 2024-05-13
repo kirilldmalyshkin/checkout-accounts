@@ -21,16 +21,16 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
-  app: {
-    pageTransition: {
-      name: "fade",
-      mode: "out-in", // default
-    },
-    layoutTransition: {
-      name: "slide",
-      mode: "out-in", // default
-    },
-  },
+  // app: {
+  //   pageTransition: {
+  //     name: "fade",
+  //     mode: "out-in", // default
+  //   },
+  //   layoutTransition: {
+  //     name: "slide",
+  //     mode: "out-in", // default
+  //   },
+  // },
   // apollo: {
   //   clients: {
   //     default: {

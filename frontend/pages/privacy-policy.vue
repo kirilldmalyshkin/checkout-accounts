@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-6 py-10 mx-auto">
+  <div class="container px-6 py-10 mx-auto text-gray-700 bg-white">
     <h1 class="text-3xl font-extrabold sm:text-5xl uppercase text-center pb-8">Privacy Policy</h1>
     <h3 class="text-lg leading-normal font-bold mb-1">Site Privacy Policy</h3>
     <p class="text-gray-500 leading-relaxed font-light mb-4">
@@ -51,7 +51,7 @@
       Contact Information
     </h3>
     <p class="text-gray-500 leading-relaxed font-light mb-4">
-      Email Address: support@accountmarket.club
+      Email Address: <a class="font-medium text-blue-600 hover:underline" href="mailto:support@accountmarket.club" target="_blank">support@accountmarket.club</a>
       <br>
       Address: 11 Claremont Grove, Chiswick, London W4 2TL
     </p>

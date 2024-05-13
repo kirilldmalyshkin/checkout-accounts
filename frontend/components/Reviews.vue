@@ -22,7 +22,7 @@
           <div class="relative overflow-hidden bg-white mb-12 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
             <!-- team block -->
             <div class="relative overflow-hidden px-6">
-              <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar1.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
+              <img src="assets/2024-05-13_20.59.31_50.jpg" class="pointer-events-none max-w-full h-auto mx-auto rounded-full" alt="title image">
             </div>
             <div class="pt-6 text-center">
               <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Joe Antonio</p>
@@ -35,10 +35,10 @@
           <!-- team block -->
           <div class="relative overflow-hidden bg-white mb-12 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
             <div class="relative overflow-hidden px-6">
-              <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar3.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
+              <img src="assets/2024-05-13_20.59.28_50.jpg" class="pointer-events-none max-w-full h-auto mx-auto rounded-full" alt="title image">
             </div>
             <div class="pt-6 text-center">
-              <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Sarah Daeva</p>
+              <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Victoria Daeva</p>
               <p class="text-gray-500 leading-relaxed font-light">Good service, bought a couple of accounts, couldn't log into the accounts as I'm new to this, wrote to support, quick response and help</p>
             </div>
           </div>
@@ -48,7 +48,7 @@
           <!-- team block -->
           <div class="relative overflow-hidden bg-white mb-12 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
             <div class="relative overflow-hidden px-6">
-              <img src="https://tailone.tailwindtemplate.net/src/img/dummy/avatar2.png" class="pointer-events-none max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
+              <img src="assets/2024-05-13_20.59.22_50.jpg" class="pointer-events-none max-w-full h-auto mx-auto rounded-full" alt="title image">
             </div>
             <div class="pt-6 text-center">
               <p class="text-lg leading-normal font-bold mb-1 text-gray-700">Daniel Emo</p>

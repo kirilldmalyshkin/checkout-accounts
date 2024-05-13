@@ -37,7 +37,7 @@
     <div class="col-start-4 flex flex-col pl-16">
         <span class="footer-title">Legal</span>
         <nuxt-link to="/privacy-policy" class="link link-hover">Privacy policy</nuxt-link>
-        <nuxt-link to="/refund-policy" class="link link-hover">Privacy policy</nuxt-link>
+        <nuxt-link to="/refund-policy" class="link link-hover">Refund policy</nuxt-link>
         <nuxt-link to="/contact-us" class="link link-hover">Contact</nuxt-link>
     </div>
     </footer>

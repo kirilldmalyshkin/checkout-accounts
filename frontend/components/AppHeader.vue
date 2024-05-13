@@ -26,8 +26,8 @@
 
             <!--  menu items -->
             <div class="flex items-center space-x-4">
-              <nuxt-link to="/check" class="text-sm font-medium text-gray-700 hover:text-gray-800">Shadowban Checker</nuxt-link>
-              <nuxt-link to="/support" class="text-sm font-medium text-gray-700 hover:text-gray-800">Support</nuxt-link>
+              <a href="https://cable.ayra.ch/reddit/" target="_blank" class="text-sm font-medium text-gray-700 hover:text-gray-800">Shadowban Checker</a>
+              <a href="https://t.me/Redaccountss" target="_blank" class="text-sm font-medium text-gray-700 hover:text-gray-800">Support</a>
 
               <!-- Cart -->
               <div class="ml-6 flow-root">

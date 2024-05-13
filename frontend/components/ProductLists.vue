@@ -13,7 +13,7 @@
         <div>
         <!-- ГОВНОКОД ON -->
 
-          <table class="sm:inline-table w-full flex flex-row sm:bg-white overflow-hidden text-gray-700 shadow-lg shadow-amber-400/50">
+          <table class="sm:inline-table w-full flex flex-row sm:bg-white overflow-hidden text-gray-700 md:shadow-lg md:shadow-amber-400/50">
             <thead
                 class="text-black"
             >

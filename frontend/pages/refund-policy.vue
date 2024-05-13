@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-6 py-10 mx-auto">
+  <div class="container px-6 py-10 mx-auto bg-white text-gray-700">
     <h1 class="text-3xl font-extrabold sm:text-5xl uppercase text-center pb-8">Refund Policy</h1>
     <h3 class="text-lg leading-normal font-bold mb-1">We only replace purchased accounts in the following cases:</h3>
     <p class="text-gray-500 leading-relaxed font-light mb-4">
