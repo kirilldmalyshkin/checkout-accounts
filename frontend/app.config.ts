@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    title: 'Account Market',
+    title: 'Accounts market',
     theme: {
         dark: false,
         darkMode: false,
