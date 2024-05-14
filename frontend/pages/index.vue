@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <hero-area/>
+    <source-info />
     <product-lists/>
     <features/>
     <benefits/>
