@@ -1,5 +1,5 @@
 <template>
-  <Meta name="cryptomus" content="f5254404" />
+  <Meta name="cryptomus" content="54ceca1e" />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
