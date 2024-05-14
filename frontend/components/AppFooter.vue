@@ -34,7 +34,7 @@
 <!--        <a class="link link-hover">Jobs</a> -->
 <!--        <a class="link link-hover">Press kit</a>-->
     </div> 
-    <div class="col-start-4 flex flex-col pl-16">
+    <div class="col-start-4 flex flex-col md:pl-16">
         <span class="footer-title">Legal</span>
         <nuxt-link to="/privacy-policy" class="link link-hover">Privacy policy</nuxt-link>
         <nuxt-link to="/refund-policy" class="link link-hover">Refund policy</nuxt-link>

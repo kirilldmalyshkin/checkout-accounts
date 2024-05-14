@@ -4,7 +4,7 @@
 
     <div class="relative flex flex-col justify-center items-center h-full space-y-6">
 
-      <div class="p-6 bg-black/50 rounded-lg">
+      <div class="p-6 bg-black/50 md:rounded-lg">
         <h1 class="text-3xl font-extrabold sm:text-5xl text-white uppercase text-center">
           BUY REDDIT ACCOUNTS
           <strong class="block font-extrabold sm:text-5xl text-rose-700">REAL, AGED, HIGH-KARMA</strong>

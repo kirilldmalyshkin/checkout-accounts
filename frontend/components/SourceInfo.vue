@@ -1,6 +1,6 @@
 <template>
-  <div id="source-info" class="section relative pt-20 pb-16 md:pt-16 bg-white px-20 -z-50 ">
-    <div class="rounded-3xl p-px bg-gradient-to-b from-pink-500 to-orange-400 shadow-2xl">
+  <div id="source-info" class="section relative pt-20 pb-16 md:pt-16 bg-white px-10 md:px-20 -z-50 ">
+    <div class="rounded-3xl p-px bg-gradient-to-b from-pink-500 to-orange-400 shadow-md md:shadow-2xl">
        <div class="m-auto p-12 bg-white rounded-3xl  lg:min-w-[1022px] xl:min-w-[1230px] 2xl:min-w-[1530px] text-gray-700 ">
           <p class="mb-4">
             <span class="font-semibold">Accounts Source:</span> Our accounts are purchased on the Reddit platform, where they are created and maintained in compliance with all the requirements and rules of this social network.
