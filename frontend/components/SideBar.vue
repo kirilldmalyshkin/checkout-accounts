@@ -56,7 +56,7 @@
                 <button
                     class="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
                   <div>
-                    <p class="text-base leading-4">Checkout $ {{ calculatePrice().toFixed(2) }}</p>
+                    <p @click="" class="text-base leading-4">Checkout $ {{ calculatePrice().toFixed(2) }}</p>
                   </div>
                 </button>
               </div>
@@ -97,7 +97,6 @@ const cart = useCartStore()
 onMounted(() => {
   cart.initCart();
 })
-
 
 const remove = cart.removeCartFn;
 const calculatePrice = cart.calculatePrice;

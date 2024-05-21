@@ -61,4 +61,4 @@ export const useCartStore = defineStore('cart', () => {
     }
 
     return { addToCart, addToCartFn, removeCartFn, calculatePrice, initCart, isProductInCart }
-})
+});

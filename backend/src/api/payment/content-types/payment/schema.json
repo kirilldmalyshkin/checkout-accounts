@@ -4,7 +4,8 @@
   "info": {
     "singularName": "payment",
     "pluralName": "payments",
-    "displayName": "Payment"
+    "displayName": "Payment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,30 +14,30 @@
   "attributes": {
     "uuid": {
       "type": "uid",
-      "required": true
+      "required": false
     },
     "orderId": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "status": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "amount": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "paymentAmount": {
       "type": "string"
     },
     "isFinal": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

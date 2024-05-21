@@ -854,18 +854,19 @@ export interface ApiPaymentPayment extends Schema.CollectionType {
     singularName: 'payment';
     pluralName: 'payments';
     displayName: 'Payment';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    uuid: Attribute.UID & Attribute.Required;
-    orderId: Attribute.String & Attribute.Required;
-    status: Attribute.String & Attribute.Required;
-    amount: Attribute.String & Attribute.Required;
+    uuid: Attribute.UID;
+    orderId: Attribute.String;
+    status: Attribute.String;
+    amount: Attribute.String;
     paymentAmount: Attribute.String;
-    isFinal: Attribute.Boolean & Attribute.Required;
-    url: Attribute.String & Attribute.Required;
+    isFinal: Attribute.Boolean;
+    url: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

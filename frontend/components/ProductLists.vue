@@ -78,7 +78,6 @@
 <script setup>
 import { useCartStore } from '@/stores/cart'
 import { ref } from 'vue'
-import productsQuery from '@/apollo/queries/products.gql'
 
 const cart = useCartStore()
 
@@ -86,19 +85,14 @@ const accounts = ref([])
 
 const fetchAccounts = async () => {
   try {
-    const { data } = await useAsyncQuery(productsQuery)
-    return data.value?.products?.data ?? []
-  } catch (error) {
-    console.error('Error fetching accounts:', error)
-    return []
-  }
-}
+    const response = await fetch('http://localhost:1337/api/products') // Adjust the endpoint URL accordingly
+    if (!response.ok) {
+      throw new Error('Failed to fetch accounts')
+    }
+    const data = await response.json()
 
-const refetchAccounts = async () => {
-  try {
-    const { refetch } = useQuery(productsQuery)
-    const res = await refetch()
-    return res?.data?.products?.data ?? []
+    console.log(data.data)
+    return data.data || []
   } catch (error) {
     console.error('Error fetching accounts:', error)
     return []
@@ -109,10 +103,6 @@ const loadAccounts = async () => {
   accounts.value = await fetchAccounts()
 }
 
-const loadRefetchAccounts = async () => {
-  accounts.value = await refetchAccounts()
-}
-
 const addCart = (product) => {
   if (!cart.isProductInCart(product.id)) {
     cart.addToCartFn(product);
@@ -120,9 +110,10 @@ const addCart = (product) => {
 }
 
 const reset = async () => {
-  await loadRefetchAccounts()
+  await loadAccounts()
 }
 
 loadAccounts()
+
 </script>
 

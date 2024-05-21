@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const strapiBaseUri = process.env.API_URL || "http://localhost:1337";
 console.log('strapiBaseUri', strapiBaseUri);
-// @ts-ignore
+
 export default defineNuxtConfig({
+  // @ts-ignore
   env: {
     strapiBaseUri,
   },
@@ -14,32 +15,12 @@ export default defineNuxtConfig({
     apiSecret: "123",
     // Keys within public are also exposed client-side
     public: {
-      apiBase: "/api",
+      apiBase: strapiBaseUri,
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxt/image-edge", "@nuxtjs/apollo"],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxt/image-edge"],
   colorMode: {
     preference: 'light'
-  },
-  apollo: {
-    clients: {
-      default: {
-        httpEndpoint: `${strapiBaseUri}/graphql`,
-        browserHttpEndpoint: `${strapiBaseUri}/graphql`,
-        wsEndpoint: '',
-        httpLinkOptions: {},
-        wsLinkOptions: {},
-        websocketsOnly: false,
-        connectToDevTools: false,
-        defaultOptions: {},
-        inMemoryCacheOptions: {},
-        tokenName: 'apollo:<client-name>.token',
-        tokenStorage: 'cookie',
-        authType: 'Bearer',
-        authHeader: 'Authorization'
-      },
-      other: './apollo/other.ts'
-    }
   },
   image: {
     domains: ["https://fakestoreapi.com/"],
