@@ -12,14 +12,14 @@ export default defineEventHandler(async (event) => {
     ].map((field, index) => `fields[${index}]=${field}`).join('&');
 
     const url = `${API_URL}${endpoint}?${filters}&${fields}`;
-
+    console.log('get accounts url:', url)
     try {
         const getAccResponse = await fetch(url, {
             method: 'GET',
         });
 
         if (!getAccResponse.ok) {
-            throw new Error('Failed to get order');
+            throw new Error('Failed to get accounts');
         }
 
         const { data } = await getAccResponse.json();
