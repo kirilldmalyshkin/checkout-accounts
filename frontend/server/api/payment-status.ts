@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
     console.dir(body, { depth: null });
     const { order_id, is_final, status } = body;
 
-    if (is_final && status === 'paid') {
+    if (is_final) {
         try {
             const putOrderResponse = await fetch(`${process.env.API_URL}/orders/${order_id}`, {
                 method: 'PUT',
@@ -50,29 +50,32 @@ export default defineEventHandler(async (event) => {
             }
 
             const { data } = await putOrderResponse.json();
-            const orderItems = data.attributes.item;
-            Object.values(orderItems).map(async (orderItem: any) => {
-                console.log(orderItem.id)
-                const accountId = orderItem.id;
 
-                if (accountId) {
-                    const putAccResponse = await fetch(`${process.env.API_URL}/products/${accountId}`, {
-                        method: 'PUT',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            data: {
-                                payed: true
-                            }
-                        })
-                    });
+            if (status === 'paid') {
+                const orderItems = data.attributes.item;
+                Object.values(orderItems).map(async (orderItem: any) => {
+                    console.log(orderItem.id)
+                    const accountId = orderItem.id;
 
-                    if (!putAccResponse.ok) {
-                        throw new Error(`Failed to put account /w id:${accountId}`)
+                    if (accountId) {
+                        const putAccResponse = await fetch(`${process.env.API_URL}/products/${accountId}`, {
+                            method: 'PUT',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                data: {
+                                    payed: true
+                                }
+                            })
+                        });
+
+                        if (!putAccResponse.ok) {
+                            throw new Error(`Failed to put account /w id:${accountId}`)
+                        }
                     }
-                }
-            })
+                })
+            }
 
         } catch (error) {
             console.log('error payment status', error)
