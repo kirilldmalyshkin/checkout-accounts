@@ -824,12 +824,14 @@ export interface ApiOrderOrder extends Schema.CollectionType {
     singularName: 'order';
     pluralName: 'orders';
     displayName: 'Order';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     item: Attribute.JSON;
+    payment_status: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -907,6 +909,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     slug: Attribute.UID & Attribute.Required;
     login: Attribute.String;
     pass: Attribute.String;
+    payed: Attribute.Boolean;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

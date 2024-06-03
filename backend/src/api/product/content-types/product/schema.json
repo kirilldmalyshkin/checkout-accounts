@@ -44,6 +44,9 @@
     },
     "pass": {
       "type": "string"
+    },
+    "payed": {
+      "type": "boolean"
     }
   }
 }

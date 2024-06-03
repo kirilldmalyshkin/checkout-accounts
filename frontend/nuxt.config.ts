@@ -15,7 +15,9 @@ export default defineNuxtConfig({
     apiSecret: "123",
     // Keys within public are also exposed client-side
     public: {
-      apiBase: strapiBaseUri,
+      strapiBaseUri,
+      API_URL: strapiBaseUri,
+      // apiBase: strapiBaseUri,
     },
   },
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxt/image-edge"],

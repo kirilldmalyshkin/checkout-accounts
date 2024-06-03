@@ -85,14 +85,11 @@ const accounts = ref([])
 
 const fetchAccounts = async () => {
   try {
-    const response = await fetch('http://localhost:1337/api/products') // Adjust the endpoint URL accordingly
-    if (!response.ok) {
-      throw new Error('Failed to fetch accounts')
-    }
-    const data = await response.json()
+    const { data } = await useFetch('/api/accounts', {
+      method: 'POST',
+    });
 
-    console.log(data.data)
-    return data.data || []
+    return data.value;
   } catch (error) {
     console.error('Error fetching accounts:', error)
     return []

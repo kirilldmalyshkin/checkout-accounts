@@ -50,13 +50,16 @@
                 <div class="mt-auto">
                   <input
                       class="border bg-white border-gray-300 p-4 rounded w-full text-base leading-4 placeholder-gray-600 text-gray-600"
-                      type="email" name="" id="" placeholder="Email" />
+                      type="email"
+                      v-model="email"
+                      placeholder="Email (not required but recommended)" />
                 </div>
 
                 <button
+                    @click="createOrder"
                     class="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
                   <div>
-                    <p @click="" class="text-base leading-4">Checkout $ {{ calculatePrice().toFixed(2) }}</p>
+                    <p class="text-base leading-4">Checkout $ {{ calculatePrice().toFixed(2) }}</p>
                   </div>
                 </button>
               </div>
@@ -90,9 +93,12 @@
 <script setup>
 
 const open = ref(false);
+const email = ref('');
 
 import { useCartStore } from '~~/stores/cart'
+import { useOrderStore } from '~~/stores/order.js'
 const cart = useCartStore()
+const order = useOrderStore()
 
 onMounted(() => {
   cart.initCart();
@@ -100,4 +106,24 @@ onMounted(() => {
 
 const remove = cart.removeCartFn;
 const calculatePrice = cart.calculatePrice;
+
+const createOrder = async () => {
+  try {
+    const { data } = await useFetch('/api/orders', {
+      method: 'post',
+      body: { items: cart.addToCart, email: email.value }
+    });
+
+    const { url, orderId } = data.value;
+    if (url) {
+      cart.removeFullCartFn();
+      order.setOrderId(orderId);
+      open.value = false;
+      window.open(url, '_blank');
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 </script>
